@@ -4,9 +4,10 @@ Library  Selenium2Library
 *** Keywords ***
 Begin Web Test
     open browser  about:blank  ff
-
+    sleep  2
 
 End Web Test
+    sleep  2
     close browser
 
 

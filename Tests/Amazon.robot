@@ -12,20 +12,18 @@ Suite Teardown  Cleanup Data Testing
 
 
 *** Test Cases ***
-Smoke Test
-    [Documentation]  Only verify if the amazon page opens
-    [Tags]  Smoke
-    Amazon.Go to Page
+#Smoke Test
+#    [Documentation]  Only verify if the amazon page opens
+#    [Tags]  Smoke
+#    Amazon.Go to Page
 
 
 User must sign in to check out
     [Documentation]  The user must must sign to check out
     [Tags]  CheckOut
-    Amazon.Go to Page
     Amazon.Search for Products
     Amazon.Select Product from Search Result
     Amazon.Add Product to Cart
-    Amazon.Continue to Cart
-    Amazon.Proceed to Checkout
+    Amazon.Begin Checkout
 
 
