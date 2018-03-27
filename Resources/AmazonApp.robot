@@ -18,6 +18,7 @@ Load Page
     LandingPage.Load
     LandingPage.Verify Page Loaded
 
+
 Search for Products
     TopNav.Search for Products
     SearchResult.Verify Search Completed
@@ -25,12 +26,13 @@ Search for Products
 
 Select Product from Search Result
     SearchResult.Click Product Link
+    Product.Verify Product Page
     Product.Add Product to Cart
+    Product.Verify Product Added
 
 
 Add Product to Cart
-    Cart.Verify Product Added
-    Cart.Add To Continue
+    Product.Add To Continue
     Cart.Verify To Continue
 
 
