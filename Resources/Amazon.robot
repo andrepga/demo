@@ -6,12 +6,19 @@ Resource  ../Resources/PO/SearchResult.robot
 Resource  ../Resources/PO/Product.robot
 Resource  ../Resources/PO/Cart.robot
 Resource  ../Resources/PO/SignIn.robot
-
+Resource  ../Resources/PO/Cart.robot
+Resource  ../Resources/PO/LandingPage.robot
+Resource  ../Resources/PO/Product.robot
+Resource  ../Resources/PO/SearchResult.robot
+Resource  ../Resources/PO/SignIn.robot
+Resource  ../Resources/PO/TopNav.robot
 
 *** Keywords ***
-Search for Products
+Load Page
     LandingPage.Load
     LandingPage.Verify Page Loaded
+
+Search for Products
     TopNav.Search for Products
     SearchResult.Verify Search Completed
 
@@ -23,8 +30,8 @@ Select Product from Search Result
 
 Add Product to Cart
     Cart.Verify Product Added
-    Cart.Add To Cart Native
-    Cart.Verify Add To Cart Native
+    Cart.Add To Continue
+    Cart.Verify To Continue
 
 
 Begin Checkout

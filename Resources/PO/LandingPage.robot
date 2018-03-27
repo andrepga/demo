@@ -4,7 +4,7 @@ Library  Selenium2Library
 
 *** Keywords ***
 Load
-    go to  https://www.amazon.com
+    go to  ${URL}
 
 Verify Page Loaded
     sleep  2

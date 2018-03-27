@@ -7,11 +7,11 @@ Verify Product Added
     wait until page contains  Added to your Cart
 
 
-Add To Cart Native
+Add To Continue
     click button  xpath=//*[@id="smartShelfAddToCartNative"]
 
 
-Verify Add To Cart Native
+Verify To Continue
     sleep  2
     wait until page contains  Shopping Cart
 

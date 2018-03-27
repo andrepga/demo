@@ -9,7 +9,7 @@ Search for Products
 
 Enter Term
     sleep  2
-    input text  xpath=//*[@id="twotabsearchtextbox"]  PlayStation 4 Pro 1TB Console
+    input text  xpath=//*[@id="twotabsearchtextbox"]  ${PRODUCT}
 
 Submit Search
     click button  xpath=/html/body/div[1]/header/div/div[1]/div[3]/div/form/div[2]/div/input
